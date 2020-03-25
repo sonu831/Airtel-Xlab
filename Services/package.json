@@ -1,0 +1,29 @@
+{
+  "name": "userapi",
+  "version": "1.0.0",
+  "description": "Restful API for User",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "FirstScreen"
+  ],
+  "author": "Yogendra singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.6",
+    "mongoose-sequence": "^5.2.2",
+    "request": "^2.88.2"
+  }
+}
